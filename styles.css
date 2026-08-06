@@ -384,6 +384,12 @@ canvas {
 .stars {
   margin-left: auto;
   letter-spacing: 0.2em;
+  color: #ffffff;
+  font-weight: 700;
+  text-shadow: 0 0 8px rgba(255, 255, 255, 0.95), 0 0 20px rgba(122, 92, 255, 0.35);
+  filter: drop-shadow(0 0 6px rgba(255, 255, 255, 0.6));
+  transition: text-shadow 0.3s ease, transform 0.3s ease;
+  animation: twinkle 3s infinite ease-in-out;
 }
 
 .evidence-grid {
@@ -475,6 +481,25 @@ canvas {
     transform: scale(1.02);
     opacity: 1;
   }
+}
+
+@keyframes twinkle {
+  0%, 100% {
+    text-shadow: 0 0 6px rgba(255, 255, 255, 0.9), 0 0 14px rgba(122, 92, 255, 0.25);
+    transform: translateY(0) scale(1);
+  }
+  50% {
+    text-shadow: 0 0 14px rgba(255, 255, 255, 1), 0 0 30px rgba(122, 92, 255, 0.45);
+    transform: translateY(-2px) scale(1.02);
+  }
+}
+
+/* Asegurar que las estrellas dentro de las fichas sean también brillantes */
+.unit-pill span,
+.unit-header .stars {
+  color: #ffffff;
+  text-shadow: 0 0 6px rgba(255, 255, 255, 0.9), 0 0 16px rgba(122, 92, 255, 0.28);
+  filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.5));
 }
 
 @media (max-width: 920px) {

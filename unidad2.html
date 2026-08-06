@@ -12,7 +12,7 @@
   <body>
     <header class="topbar">
       <div class="navbar">
-        <a class="brand" href="unidades.html">Unidad 2</a>
+        <a class="brand" href="index.html">Inicio</a>
         <button class="nav-toggle" aria-label="Abrir menú">☰</button>
         <nav class="nav-links">
           <a href="#introduccion">Introducción</a>
@@ -32,7 +32,7 @@
           <p class="eyebrow">Unidad 2</p>
           <h1>La importancia de los algoritmos en la informática</h1>
           <p>
-            Los algoritmos permiten resolver problemas de forma lógica, ordenada y eficiente. Son la base para diseñar programas y encontrar soluciones de manera clara y escalable.
+            Un algoritmo es una propuesta de solución paso a paso para un problema. Cuando se escribe de forma clara, permite construir programas, automatizar tareas y analizar procesos de manera eficiente.
           </p>
           <div class="hero-badges">
             <span>Resolución de problemas</span>
@@ -51,12 +51,12 @@
           <article class="feature-card">
             <img src="img/algoritmo-vida.svg" alt="Ejemplo de algoritmo en la vida cotidiana" />
             <h3>Definición</h3>
-            <p>Un algoritmo es una secuencia ordenada de pasos que permite resolver un problema o realizar una tarea de manera precisa.</p>
+            <p>Un algoritmo es una secuencia ordenada de pasos que permite resolver un problema o ejecutar una tarea de manera precisa, sin ambigüedad.</p>
           </article>
           <article class="feature-card">
             <h3>Características</h3>
             <ul class="list-check">
-              <li>Debe ser preciso.</li>
+              <li>Debe ser preciso y sin ambigüedades.</li>
               <li>Debe tener pasos ordenados.</li>
               <li>Debe terminar en un tiempo finito.</li>
               <li>Debe producir un resultado esperado.</li>
@@ -67,28 +67,46 @@
           <h3>Ejemplo sencillo</h3>
           <pre>Inicio
 Leer la hora actual
-Si es de mañana, saludar: "Buenos días"
-Si es de tarde, saludar: "Buenas tardes"
-Si es de noche, saludar: "Buenas noches"
+Si es de mañana, mostrar "Buenos días"
+Si es de tarde, mostrar "Buenas tardes"
+Si es de noche, mostrar "Buenas noches"
 Fin</pre>
         </div>
       </section>
 
+      <section class="section-card" id="importancia">
+        <h2>Importancia de los algoritmos</h2>
+        <div class="grid-3">
+          <article class="info-card">
+            <h3>Claridad</h3>
+            <p>Permiten expresar una solución de forma ordenada y comprensible para otras personas o para un programa.</p>
+          </article>
+          <article class="info-card">
+            <h3>Eficiencia</h3>
+            <p>Un buen algoritmo ayuda a ahorrar tiempo, memoria y recursos al resolver problemas complejos.</p>
+          </article>
+          <article class="info-card">
+            <h3>Reusabilidad</h3>
+            <p>Los algoritmos pueden adaptarse a múltiples situaciones, lo que favorece la programación y el análisis de procesos.</p>
+          </article>
+        </div>
+      </section>
+
       <section class="section-card" id="dfd">
-        <h2>DFD / Diagrama de Flujo</h2>
+        <h2>DFD / Diagrama de flujo</h2>
         <div class="grid-2">
           <article class="feature-card">
             <img src="img/diagrama-flujo.svg" alt="Diagrama de flujo" />
             <h3>¿Qué es?</h3>
-            <p>El diagrama de flujo representa visualmente la lógica de un algoritmo mediante símbolos que indican inicio, proceso, decisión y salida.</p>
+            <p>El diagrama de flujo representa visualmente la lógica de un algoritmo mediante símbolos que indican inicio, proceso, decisión, entrada, salida y conexión entre pasos.</p>
           </article>
           <article class="feature-card">
             <h3>Símbolos principales</h3>
             <ul class="list-check">
-              <li>Inicio/Fin: marca el comienzo y final del proceso.</li>
-              <li>Proceso: representa una acción o cálculo.</li>
-              <li>Entrada/Salida: muestra datos que se leen o se muestran.</li>
-              <li>Decisión: indica una condición que puede cambiar el camino.</li>
+              <li><strong>Inicio/Fin:</strong> marca el comienzo y cierre del proceso.</li>
+              <li><strong>Proceso:</strong> representa una acción o cálculo.</li>
+              <li><strong>Entrada/Salida:</strong> muestra datos que se leen o muestran.</li>
+              <li><strong>Decisión:</strong> indica una condición que cambia el camino del flujo.</li>
             </ul>
           </article>
         </div>
@@ -100,7 +118,7 @@ Fin</pre>
           <article class="feature-card">
             <img src="img/pseudocodigo.svg" alt="Pseudocódigo" />
             <h3>¿Qué es?</h3>
-            <p>El pseudocódigo es una forma de expresar la lógica de un algoritmo con un lenguaje cercano al humano, pero estructurado.</p>
+            <p>El pseudocódigo es una forma de escribir la lógica de un algoritmo con un lenguaje cercano al humano, pero con una estructura organizada que se asemeja a un programa.</p>
           </article>
           <article class="code-card">
             <h3>Ejemplo</h3>
@@ -118,14 +136,17 @@ Fin</pre>
         <h2>Relación entre algoritmo, DFD y pseudocódigo</h2>
         <div class="comparison-table">
           <article class="comparison-card">
-            <strong>Algoritmo:</strong> define la lógica y los pasos para resolver un problema.
+            <strong>Algoritmo:</strong> define la lógica de solución y los pasos que se deben ejecutar.
           </article>
           <article class="comparison-card">
-            <strong>DFD:</strong> representa visualmente esos pasos mediante diagramas y símbolos.
+            <strong>DFD:</strong> representa visualmente esos pasos mediante símbolos y flechas.
           </article>
           <article class="comparison-card">
-            <strong>Pseudocódigo:</strong> transforma la lógica en una estructura parecida al lenguaje de programación.
+            <strong>Pseudocódigo:</strong> expresa la misma lógica con una forma textual y organizada, muy cercana a la programación real.
           </article>
+        </div>
+        <div class="highlight">
+          <p>En resumen, el algoritmo es la idea, el diagrama de flujo la representación visual y el pseudocódigo la forma escrita de esa solución.</p>
         </div>
       </section>
     </main>

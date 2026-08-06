@@ -176,8 +176,9 @@ canvas {
 .hero-copy {
   color: var(--muted);
   font-size: 1.05rem;
-  max-width: 560px;
+  max-width: 680px;
   line-height: 1.7;
+  margin: 0 auto;
 }
 
 .hero-actions {
@@ -185,6 +186,7 @@ canvas {
   flex-wrap: wrap;
   gap: 0.8rem;
   margin: 1.4rem 0 1.2rem;
+  justify-content: center;
 }
 
 .btn {
@@ -193,6 +195,9 @@ canvas {
   border-radius: 999px;
   font-weight: 600;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .btn:hover {
@@ -216,6 +221,7 @@ canvas {
   flex-wrap: wrap;
   gap: 0.8rem;
   margin-top: 1rem;
+  justify-content: center;
 }
 
 .icon-pill {
@@ -228,11 +234,6 @@ canvas {
   color: #e8e7ff;
   font-size: 0.95rem;
   border: 1px solid rgba(255, 255, 255, 0.08);
-}
-
-.icon-pill svg {
-  width: 18px;
-  height: 18px;
 }
 
 .avatar-wrapper {
@@ -406,6 +407,48 @@ canvas {
   line-height: 1.65;
 }
 
+.feature-list {
+  margin: 0.7rem 0 0;
+  padding-left: 1rem;
+  color: var(--muted);
+  display: grid;
+  gap: 0.35rem;
+}
+
+.resources {
+  margin-top: 1.25rem;
+  padding: 1.4rem;
+}
+
+.resources h2 {
+  margin-top: 0;
+  margin-bottom: 0.8rem;
+}
+
+.resource-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.resource-card {
+  padding: 1rem;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.resource-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.45rem;
+}
+
+.resource-card p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.7;
+}
+
 .tilt-card {
   transform-style: preserve-3d;
   transition: transform 0.2s ease-out;
@@ -436,6 +479,10 @@ canvas {
   .overview {
     grid-template-columns: 1fr;
   }
+
+  .resource-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media (max-width: 680px) {
@@ -452,7 +499,8 @@ canvas {
   .hero,
   .bio-card,
   .sidebar,
-  .unit-card {
+  .unit-card,
+  .resources {
     padding: 1rem;
   }
 

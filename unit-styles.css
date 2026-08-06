@@ -143,6 +143,15 @@ img { display: block; width: 100%; height: auto; }
 
 section { padding: 1rem 0 0; }
 
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.24em;
+  color: #8ea0ff;
+  font-size: 0.78rem;
+  font-weight: 700;
+  margin-bottom: 0.7rem;
+}
+
 .section-card {
   padding: 1.4rem;
 }
@@ -196,6 +205,38 @@ pre {
   color: #dfe7ff;
   font-size: 0.95rem;
   line-height: 1.6;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  margin: 1rem 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: rgba(255,255,255,0.04);
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+th, td {
+  padding: 0.85rem 0.9rem;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+  text-align: left;
+}
+
+th {
+  background: rgba(109,124,255,0.2);
+  color: white;
+}
+
+.highlight {
+  padding: 1rem 1.1rem;
+  border-radius: 16px;
+  background: linear-gradient(135deg, rgba(109,124,255,0.22), rgba(43,211,255,0.16));
+  border: 1px solid rgba(255,255,255,0.1);
+  margin-top: 1rem;
 }
 
 .comparison-table {

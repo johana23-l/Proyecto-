@@ -12,7 +12,7 @@
   <body>
     <header class="topbar">
       <div class="navbar">
-        <a class="brand" href="unidades.html">Unidad 3</a>
+        <a class="brand" href="index.html">Inicio</a>
         <button class="nav-toggle" aria-label="Abrir menú">☰</button>
         <nav class="nav-links">
           <a href="#introduccion">Introducción</a>
@@ -32,7 +32,7 @@
           <p class="eyebrow">Unidad 3</p>
           <h1>Python y Mapa de Karnaugh</h1>
           <p>
-            Python es un lenguaje sencillo y potente, mientras que el mapa de Karnaugh facilita la simplificación de funciones lógicas en electrónica e informática.
+            Python es un lenguaje versátil y fácil de aprender, mientras que el mapa de Karnaugh es una herramienta visual muy útil para simplificar funciones lógicas en electrónica e informática.
           </p>
           <div class="hero-badges">
             <span>Python</span>
@@ -52,27 +52,27 @@
           <article class="feature-card">
             <img src="img/python-basico.svg" alt="Variables y tipos de datos en Python" />
             <h3>Variables y tipos de datos</h3>
-            <p>Python permite trabajar con enteros, cadenas, booleanos y listas de forma sencilla.</p>
+            <p>Python permite trabajar con enteros, flotantes, cadenas, booleanos y listas. La sintaxis es simple y directa.</p>
           </article>
           <article class="feature-card">
             <h3>Operadores</h3>
-            <p>Se utilizan para realizar operaciones matemáticas, comparaciones y lógica.</p>
+            <p>Se utilizan para realizar operaciones matemáticas, comparaciones y lógica. Ejemplos: +, -, *, /, ==, !=, and, or.</p>
           </article>
           <article class="feature-card">
             <h3>Entrada y salida</h3>
-            <p>Con input() y print() se capturan y muestran datos en consola.</p>
+            <p>Con input() se capturan datos del usuario y con print() se muestran mensajes o resultados en consola.</p>
           </article>
           <article class="feature-card">
             <h3>Condicionales</h3>
-            <p>if, elif y else permiten tomar decisiones según una condición.</p>
+            <p>Las estructuras if, elif y else permiten tomar decisiones según una condición.</p>
           </article>
           <article class="feature-card">
             <h3>Ciclos for</h3>
-            <p>Permiten repetir instrucciones un número determinado de veces.</p>
+            <p>Permiten repetir instrucciones un número determinado de veces, ideal para recorrer listas o realizar tareas repetitivas.</p>
           </article>
           <article class="feature-card">
             <h3>Ciclos while</h3>
-            <p>Repiten una acción mientras la condición sea verdadera.</p>
+            <p>Se ejecutan mientras una condición siga siendo verdadera, útil cuando no se conoce de antemano cuántas veces se repetirá un proceso.</p>
           </article>
         </div>
       </section>
@@ -105,7 +105,7 @@ else:
           <article class="feature-card">
             <img src="img/python-code.svg" alt="Código en Python" />
             <h3>Programación clara</h3>
-            <p>Python destaca por su sintaxis legible, lo que facilita el aprendizaje y la escritura de programas.</p>
+            <p>Python destaca por su sintaxis legible y por favorecer un aprendizaje más natural para quienes inician en programación.</p>
           </article>
         </div>
       </section>
@@ -116,17 +116,27 @@ else:
           <article class="feature-card">
             <img src="img/karnaugh.svg" alt="Mapa de Karnaugh" />
             <h3>¿Qué es?</h3>
-            <p>El mapa de Karnaugh es una herramienta visual que permite simplificar funciones booleanas en lógica digital.</p>
+            <p>El mapa de Karnaugh es una herramienta visual de la lógica digital que permite simplificar funciones booleanas organizando los valores de verdad en celdas adyacentes.</p>
           </article>
           <article class="feature-card">
-            <h3>¿Para qué sirve?</h3>
-            <p>Reduce expresiones lógicas complejas y ayuda a diseñar circuitos más simples y eficientes.</p>
+            <h3>¿Por qué es importante?</h3>
+            <p>Reduce expresiones lógicas complejas, facilita el diseño de circuitos y mejora la eficiencia de los sistemas digitales.</p>
           </article>
         </div>
-        <div class="code-card">
-          <h3>Ejemplo sencillo</h3>
-          <pre>Función booleana: F = A'B + AB
-Resultado simplificado: F = B</pre>
+        <div class="table-wrapper">
+          <table>
+            <thead>
+              <tr><th>Tipo de mapa</th><th>Variables</th><th>Forma</th><th>Ejemplo de simplificación</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>Mapa de 2 variables</td><td>2</td><td>2×2</td><td>$F = A'B + AB = B$</td></tr>
+              <tr><td>Mapa de 3 variables</td><td>3</td><td>2×4</td><td>$F = A'BC + ABC = BC$</td></tr>
+              <tr><td>Mapa de 4 variables</td><td>4</td><td>4×4</td><td>$F = A'B'CD + AB'CD = B'CD$</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="highlight">
+          <p>La idea central del mapa de Karnaugh es agrupar los 1s adyacentes para eliminar variables innecesarias y obtener una versión más simple de la función lógica.</p>
         </div>
       </section>
 
@@ -136,7 +146,7 @@ Resultado simplificado: F = B</pre>
           <article class="info-card">
             <img src="img/aplicaciones-python.svg" alt="Aplicaciones de Python" />
             <h3>Python en la práctica</h3>
-            <p>Se utiliza en desarrollo web, análisis de datos, automatización, inteligencia artificial y ciencia de datos.</p>
+            <p>Se usa en desarrollo web, automatización, análisis de datos, inteligencia artificial y ciencia de datos.</p>
           </article>
           <article class="info-card">
             <img src="img/aplicaciones-karnaugh.svg" alt="Aplicaciones de mapas de Karnaugh" />

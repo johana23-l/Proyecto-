@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect width="800" height="500" rx="28" fill="#0f1730"/>
+  <rect x="80" y="110" width="260" height="220" rx="16" fill="#172648" stroke="#4fd1ff" stroke-width="3"/>
+  <rect x="380" y="110" width="160" height="140" rx="16" fill="#172648" stroke="#7a5cff" stroke-width="3"/>
+  <rect x="560" y="110" width="160" height="140" rx="16" fill="#172648" stroke="#ff4fd8" stroke-width="3"/>
+  <rect x="160" y="360" width="480" height="70" rx="14" fill="#121d3d" stroke="#4fd1ff" stroke-width="2"/>
+  <circle cx="200" cy="220" r="40" fill="#4fd1ff"/>
+  <circle cx="460" cy="180" r="32" fill="#7a5cff"/>
+  <circle cx="640" cy="180" r="32" fill="#ff4fd8"/>
+  <text x="400" y="60" text-anchor="middle" fill="#ffffff" font-size="28" font-family="Arial">Arquitectura del computador</text>
+</svg>

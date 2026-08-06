@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Johana Laica | Portafolio Futurista</title>
+    <meta
+      name="description"
+      content="Portafolio futurista y elegante inspirado en tecnología y ciberseguridad."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <canvas id="particles"></canvas>
+    <div class="background-glow glow-1"></div>
+    <div class="background-glow glow-2"></div>
+    <div class="background-grid"></div>
+
+    <header class="topbar">
+      <a class="logo" href="#home" aria-label="Inicio">
+        <span>JL</span>
+      </a>
+      <nav class="nav-links">
+        <a href="#home">Inicio</a>
+        <a href="#unidad1">Unidad 1</a>
+        <a href="#unidad2">Unidad 2</a>
+        <a href="#unidad3">Unidad 3</a>
+      </nav>
+    </header>
+
+    <main id="home" class="container">
+      <section class="hero glass-card tilt-card">
+        <div class="hero-portrait">
+          <div class="avatar-wrapper tilt-card">
+            <div class="avatar-ring"></div>
+            <img src="img/foto.jpg" alt="Foto de perfil de Johana Laica" />
+          </div>
+        </div>
+
+        <div class="hero-text">
+          <p class="eyebrow">Ingeniería en Software • Tecnología • Ciberseguridad</p>
+          <h1>Johana Laica</h1>
+          <p class="hero-copy">
+            Construyo experiencias digitales con enfoque en diseño, innovación y seguridad.
+          </p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#unidad1">Explorar unidades</a>
+            <a class="btn secondary" href="#biografia">Ver biografía</a>
+          </div>
+          <div class="tech-icons" aria-label="Tecnología e Ingeniería en Software">
+            <span class="icon-pill">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                <path d="M4 7h16M7 4v3M17 4v3M6 20h12a2 2 0 0 0 2-2V8H4v10a2 2 0 0 0 2 2Z" />
+              </svg>
+              Dev
+            </span>
+            <span class="icon-pill">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                <path d="M12 3l7 4v5c0 5-3.5 7.5-7 9-3.5-1.5-7-4-7-9V7l7-4Z" />
+              </svg>
+              Security
+            </span>
+            <span class="icon-pill">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                <path d="M5 7h14M7 3h10M8 11h8M8 15h5" />
+                <rect x="4" y="7" width="16" height="12" rx="2" />
+              </svg>
+              Software
+            </span>
+          </div>
+        </div>
+      </section>
+
+      <section class="overview">
+        <article id="biografia" class="bio-card glass-card tilt-card">
+          <p class="eyebrow">Biografía</p>
+          <h2>Una mirada personal</h2>
+          <p>
+            Mi nombre es Johana Laica. Soy de la ciudad de Salcedo, tengo 20 años, me
+            gusta jugar fútbol y actualmente estudio Ingeniería en Software.
+          </p>
+          <div class="mini-stats">
+            <div>
+              <strong>20+</strong>
+              <span>Años</span>
+            </div>
+            <div>
+              <strong>100%</strong>
+              <span>Creatividad</span>
+            </div>
+            <div>
+              <strong>24/7</strong>
+              <span>Innovación</span>
+            </div>
+          </div>
+        </article>
+
+        <aside class="sidebar glass-card tilt-card">
+          <h3>Plan de unidades</h3>
+          <div class="unit-pill">
+            <div>
+              <strong>Unidad 1</strong>
+              <p>Exploración y fundamentos</p>
+            </div>
+            <span>⭐⭐⭐</span>
+          </div>
+          <div class="unit-pill">
+            <div>
+              <strong>Unidad 2</strong>
+              <p>Desarrollo y solución</p>
+            </div>
+            <span>⭐⭐⭐</span>
+          </div>
+          <div class="unit-pill">
+            <div>
+              <strong>Unidad 3</strong>
+              <p>Aplicación y evidencias</p>
+            </div>
+            <span>⭐</span>
+          </div>
+        </aside>
+      </section>
+
+      <section class="units">
+        <article id="unidad1" class="unit-card glass-card tilt-card">
+          <div class="unit-header">
+            <span class="unit-number">01</span>
+            <div>
+              <h3>Unidad 1</h3>
+              <p>Fundamentos y estructura</p>
+            </div>
+            <span class="stars">⭐⭐⭐</span>
+          </div>
+          <div class="evidence-grid">
+            <div class="evidence-item">
+              <h4>Trabajo 1</h4>
+              <p>Agrega aquí tus evidencias, conceptos clave o capturas.</p>
+            </div>
+            <div class="evidence-item">
+              <h4>Trabajo 2</h4>
+              <p>Incluye proyectos, ejercicios o documentos relevantes.</p>
+            </div>
+          </div>
+        </article>
+
+        <article id="unidad2" class="unit-card glass-card tilt-card">
+          <div class="unit-header">
+            <span class="unit-number">02</span>
+            <div>
+              <h3>Unidad 2</h3>
+              <p>Desarrollo y creatividad</p>
+            </div>
+            <span class="stars">⭐⭐⭐</span>
+          </div>
+          <div class="evidence-grid">
+            <div class="evidence-item">
+              <h4>Proyecto</h4>
+              <p>Coloca aquí tus avances, prototipos o resultados destacados.</p>
+            </div>
+            <div class="evidence-item">
+              <h4>Reflexión</h4>
+              <p>Escribe tus aprendizajes y aportes personales.</p>
+            </div>
+          </div>
+        </article>
+
+        <article id="unidad3" class="unit-card glass-card tilt-card">
+          <div class="unit-header">
+            <span class="unit-number">03</span>
+            <div>
+              <h3>Unidad 3</h3>
+              <p>Aplicación y cierre</p>
+            </div>
+            <span class="stars">⭐</span>
+          </div>
+          <div class="evidence-grid">
+            <div class="evidence-item">
+              <h4>Evidencia final</h4>
+              <p>Aquí puedes mostrar el producto final o presentación completa.</p>
+            </div>
+            <div class="evidence-item">
+              <h4>Conclusión</h4>
+              <p>Resume tus logros, retos y próximos objetivos.</p>
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

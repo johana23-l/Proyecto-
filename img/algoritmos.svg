@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect width="800" height="500" rx="28" fill="#0f1730"/>
+  <rect x="120" y="120" width="560" height="280" rx="24" fill="#172648" stroke="#4fd1ff" stroke-width="3"/>
+  <path d="M220 220h130" stroke="#4fd1ff" stroke-width="8" stroke-linecap="round"/>
+  <path d="M390 220h120" stroke="#7a5cff" stroke-width="8" stroke-linecap="round"/>
+  <path d="M300 180l70 70-70 70" stroke="#ff4fd8" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="400" y="60" text-anchor="middle" fill="#ffffff" font-size="28" font-family="Arial">Algoritmos y programación</text>
+</svg>

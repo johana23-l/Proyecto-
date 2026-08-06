@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Unidad 3 | Python y Mapa de Karnaugh</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="unit-styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="navbar">
+        <a class="brand" href="unidades.html">Unidad 3</a>
+        <button class="nav-toggle" aria-label="Abrir menú">☰</button>
+        <nav class="nav-links">
+          <a href="#introduccion">Introducción</a>
+          <a href="#basicos">Básicos</a>
+          <a href="#programas">Programas</a>
+          <a href="#karnaugh">Karnaugh</a>
+          <a href="#aplicaciones">Aplicaciones</a>
+          <a href="unidad1.html">Unidad 1</a>
+          <a href="unidad2.html">Unidad 2</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="page-shell">
+      <section class="hero" id="introduccion">
+        <div class="hero-card">
+          <p class="eyebrow">Unidad 3</p>
+          <h1>Python y Mapa de Karnaugh</h1>
+          <p>
+            Python es un lenguaje sencillo y potente, mientras que el mapa de Karnaugh facilita la simplificación de funciones lógicas en electrónica e informática.
+          </p>
+          <div class="hero-badges">
+            <span>Python</span>
+            <span>Programación</span>
+            <span>Lógica digital</span>
+            <span>Karnaugh</span>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <img src="img/python.svg" alt="Ilustración de Python" />
+        </div>
+      </section>
+
+      <section class="section-card" id="basicos">
+        <h2>Elementos básicos de Python</h2>
+        <div class="grid-3">
+          <article class="feature-card">
+            <img src="img/python-basico.svg" alt="Variables y tipos de datos en Python" />
+            <h3>Variables y tipos de datos</h3>
+            <p>Python permite trabajar con enteros, cadenas, booleanos y listas de forma sencilla.</p>
+          </article>
+          <article class="feature-card">
+            <h3>Operadores</h3>
+            <p>Se utilizan para realizar operaciones matemáticas, comparaciones y lógica.</p>
+          </article>
+          <article class="feature-card">
+            <h3>Entrada y salida</h3>
+            <p>Con input() y print() se capturan y muestran datos en consola.</p>
+          </article>
+          <article class="feature-card">
+            <h3>Condicionales</h3>
+            <p>if, elif y else permiten tomar decisiones según una condición.</p>
+          </article>
+          <article class="feature-card">
+            <h3>Ciclos for</h3>
+            <p>Permiten repetir instrucciones un número determinado de veces.</p>
+          </article>
+          <article class="feature-card">
+            <h3>Ciclos while</h3>
+            <p>Repiten una acción mientras la condición sea verdadera.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-card" id="programas">
+        <h2>Ejemplos de programas en Python</h2>
+        <div class="grid-2">
+          <article class="code-card">
+            <h3>Suma de dos números</h3>
+            <pre>a = int(input("Ingrese a: "))
+b = int(input("Ingrese b: "))
+print("La suma es:", a + b)</pre>
+          </article>
+          <article class="code-card">
+            <h3>Promedio</h3>
+            <pre>n1 = 8
+n2 = 9
+n3 = 10
+promedio = (n1 + n2 + n3) / 3
+print(promedio)</pre>
+          </article>
+          <article class="code-card">
+            <h3>Par o impar</h3>
+            <pre>num = int(input("Ingrese un número: "))
+if num % 2 == 0:
+    print("Es par")
+else:
+    print("Es impar")</pre>
+          </article>
+          <article class="feature-card">
+            <img src="img/python-code.svg" alt="Código en Python" />
+            <h3>Programación clara</h3>
+            <p>Python destaca por su sintaxis legible, lo que facilita el aprendizaje y la escritura de programas.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-card" id="karnaugh">
+        <h2>Mapa de Karnaugh</h2>
+        <div class="grid-2">
+          <article class="feature-card">
+            <img src="img/karnaugh.svg" alt="Mapa de Karnaugh" />
+            <h3>¿Qué es?</h3>
+            <p>El mapa de Karnaugh es una herramienta visual que permite simplificar funciones booleanas en lógica digital.</p>
+          </article>
+          <article class="feature-card">
+            <h3>¿Para qué sirve?</h3>
+            <p>Reduce expresiones lógicas complejas y ayuda a diseñar circuitos más simples y eficientes.</p>
+          </article>
+        </div>
+        <div class="code-card">
+          <h3>Ejemplo sencillo</h3>
+          <pre>Función booleana: F = A'B + AB
+Resultado simplificado: F = B</pre>
+        </div>
+      </section>
+
+      <section class="section-card" id="aplicaciones">
+        <h2>Aplicaciones</h2>
+        <div class="grid-2">
+          <article class="info-card">
+            <img src="img/aplicaciones-python.svg" alt="Aplicaciones de Python" />
+            <h3>Python en la práctica</h3>
+            <p>Se utiliza en desarrollo web, análisis de datos, automatización, inteligencia artificial y ciencia de datos.</p>
+          </article>
+          <article class="info-card">
+            <img src="img/aplicaciones-karnaugh.svg" alt="Aplicaciones de mapas de Karnaugh" />
+            <h3>Karnaugh en electrónica</h3>
+            <p>Se emplea en diseño de circuitos digitales, sistemas lógicos y reducción de expresiones booleanas.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Unidad 3 · Python y Mapa de Karnaugh</p>
+    </footer>
+
+    <script src="unit-script.js"></script>
+  </body>
+</html>

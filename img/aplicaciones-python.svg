@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="450" viewBox="0 0 700 450">
+  <rect width="700" height="450" rx="24" fill="#101a33"/>
+  <rect x="160" y="120" width="380" height="210" rx="20" fill="#172648" stroke="#4fd1ff" stroke-width="3"/>
+  <circle cx="250" cy="225" r="50" fill="#4fd1ff"/>
+  <circle cx="450" cy="225" r="50" fill="#7a5cff"/>
+  <text x="350" y="330" text-anchor="middle" fill="#ffffff" font-size="24" font-family="Arial">Aplicaciones de Python</text>
+</svg>

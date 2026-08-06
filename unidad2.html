@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Unidad 2 | La importancia de los algoritmos en la informática</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="unit-styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="navbar">
+        <a class="brand" href="unidades.html">Unidad 2</a>
+        <button class="nav-toggle" aria-label="Abrir menú">☰</button>
+        <nav class="nav-links">
+          <a href="#introduccion">Introducción</a>
+          <a href="#algoritmo">Algoritmo</a>
+          <a href="#dfd">DFD</a>
+          <a href="#pseudocodigo">Pseudocódigo</a>
+          <a href="#relacion">Relación</a>
+          <a href="unidad1.html">Unidad 1</a>
+          <a href="unidad3.html">Unidad 3</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="page-shell">
+      <section class="hero" id="introduccion">
+        <div class="hero-card">
+          <p class="eyebrow">Unidad 2</p>
+          <h1>La importancia de los algoritmos en la informática</h1>
+          <p>
+            Los algoritmos permiten resolver problemas de forma lógica, ordenada y eficiente. Son la base para diseñar programas y encontrar soluciones de manera clara y escalable.
+          </p>
+          <div class="hero-badges">
+            <span>Resolución de problemas</span>
+            <span>Optimización</span>
+            <span>Programación</span>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <img src="img/algoritmos.svg" alt="Ilustración sobre algoritmos y programación" />
+        </div>
+      </section>
+
+      <section class="section-card" id="algoritmo">
+        <h2>¿Qué es un algoritmo?</h2>
+        <div class="grid-2">
+          <article class="feature-card">
+            <img src="img/algoritmo-vida.svg" alt="Ejemplo de algoritmo en la vida cotidiana" />
+            <h3>Definición</h3>
+            <p>Un algoritmo es una secuencia ordenada de pasos que permite resolver un problema o realizar una tarea de manera precisa.</p>
+          </article>
+          <article class="feature-card">
+            <h3>Características</h3>
+            <ul class="list-check">
+              <li>Debe ser preciso.</li>
+              <li>Debe tener pasos ordenados.</li>
+              <li>Debe terminar en un tiempo finito.</li>
+              <li>Debe producir un resultado esperado.</li>
+            </ul>
+          </article>
+        </div>
+        <div class="code-card">
+          <h3>Ejemplo sencillo</h3>
+          <pre>Inicio
+Leer la hora actual
+Si es de mañana, saludar: "Buenos días"
+Si es de tarde, saludar: "Buenas tardes"
+Si es de noche, saludar: "Buenas noches"
+Fin</pre>
+        </div>
+      </section>
+
+      <section class="section-card" id="dfd">
+        <h2>DFD / Diagrama de Flujo</h2>
+        <div class="grid-2">
+          <article class="feature-card">
+            <img src="img/diagrama-flujo.svg" alt="Diagrama de flujo" />
+            <h3>¿Qué es?</h3>
+            <p>El diagrama de flujo representa visualmente la lógica de un algoritmo mediante símbolos que indican inicio, proceso, decisión y salida.</p>
+          </article>
+          <article class="feature-card">
+            <h3>Símbolos principales</h3>
+            <ul class="list-check">
+              <li>Inicio/Fin: marca el comienzo y final del proceso.</li>
+              <li>Proceso: representa una acción o cálculo.</li>
+              <li>Entrada/Salida: muestra datos que se leen o se muestran.</li>
+              <li>Decisión: indica una condición que puede cambiar el camino.</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-card" id="pseudocodigo">
+        <h2>Pseudocódigo</h2>
+        <div class="grid-2">
+          <article class="feature-card">
+            <img src="img/pseudocodigo.svg" alt="Pseudocódigo" />
+            <h3>¿Qué es?</h3>
+            <p>El pseudocódigo es una forma de expresar la lógica de un algoritmo con un lenguaje cercano al humano, pero estructurado.</p>
+          </article>
+          <article class="code-card">
+            <h3>Ejemplo</h3>
+            <pre>Inicio
+Leer num1
+Leer num2
+sumar = num1 + num2
+Mostrar sumar
+Fin</pre>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-card" id="relacion">
+        <h2>Relación entre algoritmo, DFD y pseudocódigo</h2>
+        <div class="comparison-table">
+          <article class="comparison-card">
+            <strong>Algoritmo:</strong> define la lógica y los pasos para resolver un problema.
+          </article>
+          <article class="comparison-card">
+            <strong>DFD:</strong> representa visualmente esos pasos mediante diagramas y símbolos.
+          </article>
+          <article class="comparison-card">
+            <strong>Pseudocódigo:</strong> transforma la lógica en una estructura parecida al lenguaje de programación.
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Unidad 2 · La importancia de los algoritmos en la informática</p>
+    </footer>
+
+    <script src="unit-script.js"></script>
+  </body>
+</html>

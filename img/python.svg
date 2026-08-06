@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect width="800" height="500" rx="28" fill="#0f1730"/>
+  <rect x="140" y="120" width="520" height="260" rx="24" fill="#172648" stroke="#4fd1ff" stroke-width="3"/>
+  <path d="M260 180c0-40 30-70 70-70h30c40 0 70 30 70 70v20c0 10-8 18-18 18h-40c-22 0-40 18-40 40v30c0 10-8 18-18 18h-30c-40 0-70-30-70-70z" fill="#4fd1ff"/>
+  <path d="M360 220c0 40-30 70-70 70h-30c-40 0-70-30-70-70v-20c0-10 8-18 18-18h40c22 0 40-18 40-40v-30c0-10 8-18 18-18h30c40 0 70 30 70 70z" fill="#ff4fd8"/>
+  <text x="400" y="60" text-anchor="middle" fill="#ffffff" font-size="28" font-family="Arial">Python</text>
+</svg>

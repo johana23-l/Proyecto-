@@ -1,0 +1,20 @@
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff4fd8" />
+      <stop offset="50%" stop-color="#7a5cff" />
+      <stop offset="100%" stop-color="#37b8ff" />
+    </linearGradient>
+  </defs>
+  <rect width="500" height="500" rx="250" fill="url(#bg)" />
+  <circle cx="250" cy="250" r="200" fill="rgba(255,255,255,0.14)" />
+  <circle cx="250" cy="230" r="120" fill="#120b24" />
+  <path d="M180 360c18-60 60-90 70-90s52 30 70 90" fill="#120b24" />
+  <circle cx="205" cy="225" r="16" fill="#fff" />
+  <circle cx="295" cy="225" r="16" fill="#fff" />
+  <circle cx="205" cy="225" r="8" fill="#37b8ff" />
+  <circle cx="295" cy="225" r="8" fill="#37b8ff" />
+  <path d="M210 292c20 20 60 20 80 0" stroke="#fff" stroke-width="10" stroke-linecap="round" />
+  <path d="M120 135c30-55 95-82 130-82 40 0 95 24 130 82" stroke="#fff" stroke-opacity="0.8" stroke-width="12" stroke-linecap="round" fill="none" />
+  <text x="250" y="440" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="36" fill="#fff" font-weight="700">JL</text>
+</svg>

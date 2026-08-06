@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400">
+  <rect width="600" height="400" rx="24" fill="#101a33"/>
+  <circle cx="300" cy="205" r="90" fill="#172648" stroke="#4fd1ff" stroke-width="4"/>
+  <path d="M220 180c18-52 90-80 130-40 24 24 30 59 15 90-18 37-58 60-105 55-26-3-49-16-60-38-13-24-12-46 20-67z" fill="#7a5cff"/>
+  <text x="300" y="330" text-anchor="middle" fill="#ffffff" font-size="24" font-family="Arial">Linux</text>
+</svg>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="450" viewBox="0 0 700 450">
+  <rect width="700" height="450" rx="24" fill="#101a33"/>
+  <rect x="120" y="100" width="460" height="250" rx="18" fill="#172648" stroke="#4fd1ff" stroke-width="3"/>
+  <text x="180" y="165" fill="#4fd1ff" font-size="23" font-family="Arial">print(&quot;Hola Mundo&quot;)</text>
+  <text x="180" y="210" fill="#ffffff" font-size="23" font-family="Arial">for i in range(3):</text>
+  <text x="220" y="255" fill="#ff4fd8" font-size="23" font-family="Arial">print(i)</text>
+</svg>

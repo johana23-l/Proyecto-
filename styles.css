@@ -139,24 +139,25 @@ canvas {
 }
 
 .hero {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: minmax(220px, 320px) minmax(0, 1fr);
+  gap: 2rem;
   align-items: center;
-  gap: 1.5rem;
   padding: 2rem;
   margin-top: 1rem;
-  text-align: center;
+  text-align: left;
 }
 
 .hero-portrait {
   width: 100%;
   display: flex;
-  justify-content: center;
-  margin-bottom: 0.2rem;
+  justify-content: flex-start;
+  margin-bottom: 0;
 }
 
 .hero-text {
   max-width: 760px;
+  width: 100%;
 }
 
 .eyebrow {
@@ -178,7 +179,7 @@ canvas {
   font-size: 1.05rem;
   max-width: 680px;
   line-height: 1.7;
-  margin: 0 auto;
+  margin: 0;
 }
 
 .hero-actions {
@@ -186,7 +187,7 @@ canvas {
   flex-wrap: wrap;
   gap: 0.8rem;
   margin: 1.4rem 0 1.2rem;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .btn {
@@ -221,7 +222,7 @@ canvas {
   flex-wrap: wrap;
   gap: 0.8rem;
   margin-top: 1rem;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .icon-pill {
@@ -240,9 +241,10 @@ canvas {
   position: relative;
   display: grid;
   place-items: center;
-  width: min(320px, 78vw);
+  width: min(280px, 72vw);
   aspect-ratio: 1;
   padding: 1rem;
+  margin-right: 1rem;
 }
 
 .avatar-ring {
@@ -482,6 +484,24 @@ canvas {
 
   .resource-grid {
     grid-template-columns: 1fr;
+  }
+
+  .hero {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .hero-portrait {
+    justify-content: center;
+  }
+
+  .hero-actions,
+  .tech-icons {
+    justify-content: center;
+  }
+
+  .hero-copy {
+    margin: 0 auto;
   }
 }
 

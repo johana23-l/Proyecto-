@@ -1,26 +1,38 @@
 # Proyecto web de Johana Laica
 
-Este proyecto es una página web educativa, moderna y responsive, desarrollada con HTML5, CSS3 y JavaScript. Está diseñada para presentar contenidos sobre arquitectura del computador, sistemas operativos, sistemas de enumeración, algoritmos, diagramas de flujo, pseudocódigo, Python y mapas de Karnaugh.
+Este proyecto es una página web educativa profesional y responsiva, creada con HTML5, CSS3 y JavaScript. Presenta una portada principal que incluye foto de perfil, logo, presentación personal y tarjetas de progreso de las unidades. Después de la portada se encuentran las secciones de Unidad 1, Unidad 2, Unidad 3 y Bibliografía.
 
 ## Estructura del proyecto
 
-- index.html: página principal del sitio.
-- css/styles.css: estilos generales y diseño responsive.
-- js/script.js: interacción básica para navegación y efectos.
-- imagenes/: carpeta con imágenes del logo, foto de perfil y recursos visuales.
+- `index.html`: página principal con toda la información del sitio.
+- `css/styles.css`: estilos modernos, responsivos y visuales.
+- `js/script.js`: interacción para navegación activa y efectos de desplazamiento.
+- `imagenes/`: carpeta con las imágenes del logo, perfil y temas.
 
-## Cómo abrirlo
+## Contenido incluido
 
-1. Abre la carpeta en Visual Studio Code.
-2. Ejecuta index.html directamente en tu navegador o usa una extensión de Live Server.
+- Portada con presentación personal y progreso de unidades.
+- Unidad 1: Arquitectura del computador, sistemas operativos y sistemas de enumeración.
+- Unidad 2: Algoritmos, diagramas de flujo de datos, diagramas de flujo y pseudocódigo.
+- Unidad 3: Python y mapas de Karnaugh.
+- Ejemplos resueltos y ejercicios prácticos con propuestas de práctica.
+- Bibliografía con fuentes confiables.
+
+## Cómo usarlo
+
+1. Abre la carpeta del proyecto en Visual Studio Code.
+2. Abre `index.html` en el navegador o utiliza la extensión Live Server.
+3. Navega entre las secciones usando el menú superior.
 
 ## Publicación en GitHub Pages
 
-1. Sube este proyecto a un repositorio de GitHub.
-2. En la configuración del repositorio, entra a Pages.
-3. Selecciona la rama principal como fuente.
-4. Guarda los cambios y espera a que se publique la web.
+1. Crea un repositorio en GitHub y sube los archivos del proyecto.
+2. Ve a la configuración del repositorio y abre la sección Pages.
+3. Selecciona la rama `main` y la carpeta raíz como fuente.
+4. Guarda los cambios y espera a que GitHub Pages genere el sitio.
 
-## Créditos
+## Notas
 
-Desarrollado para presentar contenido educativo de forma clara, visual y profesional.
+- El proyecto está listo para publicarse en GitHub Pages.
+- La portada se mantiene como la presentación principal del sitio.
+- El diseño es responsivo y funciona en dispositivos móviles y de escritorio.

@@ -1,9 +1,11 @@
 document.addEventListener('DOMContentLoaded', () => {
   const navLinks = document.querySelectorAll('.nav a');
   const sections = document.querySelectorAll('section[id]');
+  const header = document.querySelector('.header');
 
   const setActiveLink = () => {
     let current = '';
+
     sections.forEach((section) => {
       const top = section.offsetTop - 120;
       if (window.scrollY >= top) {
@@ -16,7 +18,13 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   };
 
-  window.addEventListener('scroll', setActiveLink);
+  window.addEventListener('scroll', () => {
+    if (header) {
+      header.classList.toggle('header-shadow', window.scrollY > 20);
+    }
+    setActiveLink();
+  });
+
   setActiveLink();
 
   const year = document.getElementById('year');

@@ -1,6 +1,6 @@
 :root {
   --bg: #f7f2ff;
-  --surface: rgba(255, 255, 255, 0.82);
+  --surface: rgba(255, 255, 255, 0.88);
   --surface-strong: #ffffff;
   --text: #261b3d;
   --muted: #6f6588;
@@ -9,6 +9,7 @@
   --accent: #f0c8ff;
   --border: rgba(123, 92, 255, 0.16);
   --shadow: 0 20px 45px rgba(96, 60, 180, 0.18);
+  --shadow-soft: 0 16px 32px rgba(96, 60, 180, 0.12);
 }
 
 * {
@@ -27,7 +28,7 @@ body {
   background:
     radial-gradient(circle at top left, rgba(164, 109, 255, 0.16), transparent 26%),
     linear-gradient(135deg, #f9f5ff 0%, #f3ebff 100%);
-  line-height: 1.6;
+  line-height: 1.65;
 }
 
 a {
@@ -40,6 +41,12 @@ img {
   display: block;
 }
 
+button,
+input,
+textarea {
+  font: inherit;
+}
+
 .container {
   width: min(1160px, calc(100% - 2rem));
   margin: 0 auto;
@@ -50,8 +57,13 @@ img {
   top: 0;
   z-index: 1000;
   backdrop-filter: blur(16px);
-  background: rgba(249, 245, 255, 0.86);
+  background: rgba(249, 245, 255, 0.92);
   border-bottom: 1px solid rgba(123, 92, 255, 0.14);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.header-shadow {
+  box-shadow: 0 10px 30px rgba(96, 60, 180, 0.14);
 }
 
 .header-inner {
@@ -85,7 +97,7 @@ img {
 }
 
 .nav a {
-  padding: 0.7rem 0.95rem;
+  padding: 0.75rem 1rem;
   border-radius: 999px;
   color: var(--muted);
   transition: all 0.25s ease;
@@ -216,7 +228,7 @@ img {
 }
 
 .unit-section h3 {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   margin-bottom: 0.5rem;
 }
 
@@ -231,31 +243,141 @@ img {
   gap: 1rem;
 }
 
-.list {
+.unit-content {
   display: grid;
-  gap: 0.6rem;
-  color: var(--muted);
-  padding-left: 1rem;
+  gap: 1.5rem;
+  margin-top: 2rem;
 }
 
-.bibliography {
-  background: var(--surface);
-  border: 1px solid var(--border);
+.topic-section {
+  background: rgba(255, 255, 255, 0.95);
+  border: 1px solid rgba(123, 92, 255, 0.12);
   border-radius: 28px;
-  padding: 1.5rem;
-  box-shadow: var(--shadow);
+  padding: 1.75rem;
+  box-shadow: var(--shadow-soft);
 }
 
-.bibliography-item {
+.topic-header {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 1.25rem;
+  align-items: center;
   margin-bottom: 1rem;
-  padding-bottom: 1rem;
-  border-bottom: 1px solid rgba(123, 92, 255, 0.14);
 }
 
-.bibliography-item:last-child {
-  margin-bottom: 0;
-  border-bottom: none;
-  padding-bottom: 0;
+.topic-header img {
+  width: 96px;
+  height: 96px;
+  border-radius: 22px;
+  object-fit: cover;
+  border: 1px solid rgba(123, 92, 255, 0.18);
+}
+
+.topic-section h4 {
+  margin-bottom: 0.6rem;
+  font-size: 1.35rem;
+}
+
+.topic-section p {
+  color: var(--muted);
+  margin-bottom: 1rem;
+  line-height: 1.75;
+}
+
+.info-box,
+.exercise-block {
+  background: rgba(123, 92, 255, 0.06);
+  border: 1px solid rgba(123, 92, 255, 0.12);
+  padding: 1.15rem 1.25rem;
+  border-radius: 20px;
+  margin-bottom: 1rem;
+}
+
+.info-box h5,
+.exercise-block h5 {
+  margin-bottom: 0.75rem;
+  font-size: 1.05rem;
+}
+
+.info-box ul,
+.exercise-block ol,
+.practice-list ol {
+  padding-left: 1.35rem;
+  color: var(--muted);
+}
+
+.code-sample {
+  background: #1d1d44;
+  color: #f5f3ff;
+  padding: 1rem;
+  border-radius: 18px;
+  overflow-x: auto;
+  font-family: 'Fira Code', monospace;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+code {
+  background: rgba(123, 92, 255, 0.12);
+  border-radius: 0.45rem;
+  padding: 0.15rem 0.3rem;
+}
+
+.practice-list {
+  display: grid;
+  gap: 0.65rem;
+  padding-left: 1rem;
+  color: var(--muted);
+}
+
+footer {
+  padding: 1.5rem 0 2rem;
+  color: var(--muted);
+}
+
+footer p {
+  text-align: center;
+}
+
+@media (max-width: 900px) {
+  .hero-card {
+    grid-template-columns: 1fr;
+  }
+
+  .topics-grid,
+  .progress-grid,
+  .unit-content {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 680px) {
+  .header-inner {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav {
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .hero {
+    padding: 2.5rem 0 1rem;
+  }
+
+  .hero-card {
+    padding: 1.5rem;
+  }
+
+  .topic-header {
+    grid-template-columns: 1fr;
+  }
+
+  .topic-header img {
+    width: 100%;
+    height: auto;
+  }
 }
 
 footer {

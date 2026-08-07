@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400">
+  <rect width="640" height="400" rx="24" fill="#eef7ff"/>
+  <rect x="72" y="72" width="496" height="256" rx="24" fill="#fff" stroke="#7B5CFF" stroke-width="6"/>
+  <text x="110" y="130" font-family="Inter, sans-serif" font-size="26" fill="#261b3d">Programa: Calcular área</text>
+  <text x="110" y="180" font-family="Inter, sans-serif" font-size="22" fill="#6f6588">base = float(input(&quot;Ingrese la base:&quot;))</text>
+  <text x="110" y="220" font-family="Inter, sans-serif" font-size="22" fill="#6f6588">altura = float(input(&quot;Ingrese la altura:&quot;))</text>
+  <text x="110" y="260" font-family="Inter, sans-serif" font-size="22" fill="#6f6588">area = base * altura</text>
+  <text x="110" y="300" font-family="Inter, sans-serif" font-size="22" fill="#6f6588">print(&quot;El área es:&quot;, area)</text>
+</svg>

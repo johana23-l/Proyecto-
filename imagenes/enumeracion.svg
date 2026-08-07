@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400">
+  <rect width="640" height="400" rx="24" fill="#f4ebff"/>
+  <g opacity="0.95">
+    <rect x="96" y="62" width="448" height="276" rx="24" fill="#fff" stroke="#7B5CFF" stroke-width="6"/>
+    <circle cx="164" cy="120" r="16" fill="#7B5CFF"/>
+    <circle cx="164" cy="200" r="16" fill="#a46dff"/>
+    <circle cx="164" cy="280" r="16" fill="#f0c8ff"/>
+    <text x="210" y="130" font-family="Inter, sans-serif" font-size="28" fill="#261b3d">Decimal</text>
+    <text x="210" y="210" font-family="Inter, sans-serif" font-size="28" fill="#261b3d">Binario</text>
+    <text x="210" y="290" font-family="Inter, sans-serif" font-size="28" fill="#261b3d">Hexadecimal</text>
+    <rect x="420" y="104" width="120" height="54" rx="16" fill="#7B5CFF" opacity="0.15"/>
+    <rect x="420" y="184" width="120" height="54" rx="16" fill="#a46dff" opacity="0.15"/>
+    <rect x="420" y="264" width="120" height="54" rx="16" fill="#f0c8ff" opacity="0.15"/>
+    <text x="440" y="140" font-family="Inter, sans-serif" font-size="24" fill="#7B5CFF">10</text>
+    <text x="440" y="220" font-family="Inter, sans-serif" font-size="24" fill="#a46dff">1010</text>
+    <text x="440" y="300" font-family="Inter, sans-serif" font-size="24" fill="#d56cff">A</text>
+  </g>
+</svg>

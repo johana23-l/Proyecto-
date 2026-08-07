@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400">
+  <rect width="640" height="400" rx="24" fill="#fdf5ff"/>
+  <rect x="96" y="80" width="448" height="240" rx="24" fill="#fff" stroke="#7B5CFF" stroke-width="6"/>
+  <line x1="140" y1="140" x2="540" y2="140" stroke="#7B5CFF" stroke-width="2"/>
+  <line x1="140" y1="180" x2="540" y2="180" stroke="#7B5CFF" stroke-width="2"/>
+  <line x1="140" y1="220" x2="540" y2="220" stroke="#7B5CFF" stroke-width="2"/>
+  <line x1="140" y1="260" x2="540" y2="260" stroke="#7B5CFF" stroke-width="2"/>
+  <text x="150" y="130" font-family="Inter, sans-serif" font-size="22" fill="#261b3d">Inicio</text>
+  <text x="150" y="170" font-family="Inter, sans-serif" font-size="22" fill="#261b3d">Leer número</text>
+  <text x="150" y="210" font-family="Inter, sans-serif" font-size="22" fill="#261b3d">Condición par/impar</text>
+  <text x="150" y="250" font-family="Inter, sans-serif" font-size="22" fill="#261b3d">Mostrar resultado</text>
+  <text x="150" y="290" font-family="Inter, sans-serif" font-size="22" fill="#261b3d">Fin</text>
+</svg>
